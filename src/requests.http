@@ -1,0 +1,30 @@
+GET https://project-artsiomumbryian-default-rtdb.firebaseio.com/todos.json HTTP/1.1
+
+###
+
+POST https://project-artsiomumbryian-default-rtdb.firebaseio.com/todos.json HTTP/1.1
+content-type: application/json
+
+{
+    "complited": false,
+    "id": "201",
+    "title": "stand up",
+    "userId": 11
+}
+
+###
+
+PATCH  https://project-artsiomumbryian-default-rtdb.firebaseio.com/todos/0.json HTTP/1.1
+content-type: application/json
+
+{
+    "completed": false,
+    "id": "201",
+    "title": "stand up",
+    "userId": 1
+}
+
+###
+
+DELETE  https://project-artsiomumbryian-default-rtdb.firebaseio.com/todos/-MhhnJtCwiThmiJPnf2N.json HTTP/1.1
+content-type: application/json

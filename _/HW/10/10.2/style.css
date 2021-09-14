@@ -1,0 +1,36 @@
+body{
+    background-color: var(--color);
+}
+
+.main{
+    width: 170px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    background-color: rgba(252, 252, 252, 0.445);
+}
+
+input{
+    margin: 3px;
+    font-style: italic;
+}
+
+.lightseagreen{
+    background-color: lightseagreen;
+}
+
+.magenta {
+    background-color: magenta;
+}
+
+.chocolate{
+    background-color: chocolate;
+}
+
+#paletteSelector{
+    width: 70%;
+}
+
+#input1{
+    width: 128px;
+}

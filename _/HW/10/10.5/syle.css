@@ -1,0 +1,12 @@
+body{
+    background-color: darkgreen;
+}
+
+.red{
+    background-color: red;
+    color: rgb(254, 0, 0);
+}
+
+#input{
+    width: 200px;
+}

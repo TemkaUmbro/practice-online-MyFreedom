@@ -1,0 +1,21 @@
+.container {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 50px;
+}
+
+.counter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.5em;
+}
+
+.operators {
+    font-size: 0.5em;
+    padding: 5px;
+    border-radius: 100px;
+    min-width: 20%;
+}

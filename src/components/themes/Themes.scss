@@ -1,0 +1,64 @@
+.light {
+    background-color: rgb(223, 223, 223);
+    h1, h2, h3, div {
+        color: black;
+    }
+
+    a {
+        font-weight: bolder;
+        color: rgb(0, 0, 0);
+    }
+
+    form {
+        border-color: rgb(0, 0, 0);
+    }
+
+    .toggleButton {
+        color: lightcoral;
+        border-color: lightcoral;
+    }
+
+    .todoTitle {
+        text-align: center;
+        border-bottom: 1px solid rgb(0, 0, 0);
+        padding: 3px;
+    }
+}
+
+.toggleButton {
+    padding: 2px 10px ;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    color: royalblue;
+    border: 1px solid royalblue;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.dark {
+    background-color: #313131;
+    color: #05b1e6;
+
+    input {
+        font-size: large;
+        font-style: italic;
+        padding: 5px;
+        border-radius: 10px;
+        margin: 5px 0px;
+        color: #05b1e6;
+        border-color: #05b1e6;
+        background-color: rgba(56, 56, 56, 0.911);
+    }
+
+    button {
+        color: #05b1e6;
+        border-color: #05b1e6;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    .todoTitle {
+        text-align: center;
+        border-bottom: 1px solid royalblue;
+        padding: 3px;
+    }
+}

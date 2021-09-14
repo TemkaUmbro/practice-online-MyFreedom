@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 300px;
+    margin: auto;
+    margin-top: 200px;
+    padding: 10px;
+    background-color: rgba(68, 76, 190, 0.753);
+    text-align: center;
+    border-radius: 20px;
+}

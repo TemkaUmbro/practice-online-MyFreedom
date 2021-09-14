@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clock {
+    background-color: rgb(253, 165, 165);
+    height: 100px;
+    margin: auto;
+    font-size: 55px;
+    text-align: center;
+}
+
+.coloredClock {
+    background-color: rgba(0, 0, 255, 0.562);
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    font-size: 55px;
+
+}

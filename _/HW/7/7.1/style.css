@@ -1,0 +1,27 @@
+.calculator{
+    margin: auto;
+    margin-top: 50px;
+    width: 170px;
+    background-color: purple;
+    align-items: middle;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#num1, #num2{
+    margin: 5px 10px 5px 10px;
+    padding: 3px;
+    background-color: rgb(244, 211, 247);
+    color: rgb(10, 0, 99);
+}
+
+
+.button{
+    margin: 5px 10px 5px 10px;
+    padding: 3px;  
+    background-color: rgb(244, 211, 247);
+    font-style: italic;
+    font-style: bold;
+    font-weight: 530px;
+}

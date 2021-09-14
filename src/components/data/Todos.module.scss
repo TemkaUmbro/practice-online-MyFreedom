@@ -1,0 +1,113 @@
+.todoUl {
+    list-style: none;
+    color:white;
+    margin: 0;
+    padding: 0;
+}
+
+.todoLi {
+    position: relative;
+    font-weight: bold;
+    text-align: center;
+    margin: 25px;
+    border: 1px solid rgb(255, 98, 98);
+    padding: 10px;
+    border-radius: 10px;
+    color: #c300ff;
+}
+
+.pan {
+    margin-left: 15px;
+}
+
+.formTodo {
+    .inputTodo {
+        font-size: large;
+        padding: 5px;
+        border-radius: 10px;
+        width: 70%;
+        margin: 5px 0px;
+        background-color: rgba(245, 245, 245, 0.082);
+    }
+
+    .buttonTodo {
+        padding: 5px 20px;
+        border-radius: 10px;
+        font-size: large;
+        width: 25%;
+        margin-top: 5px;
+        background-color: rgba(245, 245, 245, 0.082);
+        cursor: pointer;
+    }
+}
+
+.todoTitle {
+    text-align: center;
+    border-bottom: 1px solid royalblue;
+    padding: 3px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-weight: bold;
+    margin: 15px auto;
+    border: 1px solid #ff6262;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ff6262;
+    width: 50%;
+}
+
+.todoChanger {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.todoChangerContent {
+    padding: 25px;
+    color: black;
+    background-color: #a14343;
+    border-radius: 15px;
+    min-width: 250px;
+}
+
+.todoChanger.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todoForm {
+    max-width: 400px;
+}
+
+.todoSaver {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    margin: 15px auto;
+    border: 1px solid;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.titleFilter {
+    font-size: large;
+    font-style: italic;
+    padding: 5px;
+    border-radius: 10px;
+    width: 95%;
+    margin: 5px 0px;
+    background-color: rgba(245, 245, 245, 0.082);
+}

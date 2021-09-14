@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 150px;
+    margin: auto;
+    margin-top: 200px;
+    padding: 10px;
+    background-color: rgb(171, 99, 219);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.gray{
+    background-color: gray;
+} 

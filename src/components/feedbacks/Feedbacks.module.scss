@@ -1,0 +1,50 @@
+.formFeedback {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    font-weight: bold;
+    margin: 35px auto;
+    max-width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #0087b1;
+    color: #49c6ec;
+
+    .inputFeedback {
+        font-size: large;
+        font-style: italic;
+        padding: 5px;
+        border-radius: 10px;
+        width: 95%;
+        margin: 5px 0px;
+    }
+
+    .buttonFeedback {
+        padding: 5px 20px;
+        border-radius: 10px;
+        font-size: large;
+        text-align: center;
+        margin-top: 5px;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    .redBorder{
+        border-color: red;
+    }
+}
+
+.feedbacks {
+    max-width: 400px;
+    margin: 10px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: rgba(0, 0, 0, 0.253);
+    color: rgb(195, 0, 255);
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    border-color: rgb(102, 85, 117);
+}
